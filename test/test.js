@@ -15,3 +15,19 @@ describe('TestGroupOne', function() {
       });
     });
   });
+
+  // Math Tests
+describe('Math', function() {
+    // Test One
+    describe('Test One:', function() {
+      it('should pass if test if 3 * 3 = 9', function(){
+        assert.equal(9, 3*3);
+      });
+    });
+    // Test Two
+    describe('Test Two:', function() {
+      it('should pass if  test if (3–4)*8 = -8', function(){
+        assert.equal(-8, (3-4)*8);
+      });
+    });
+});
