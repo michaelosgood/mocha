@@ -1,5 +1,5 @@
 var assert = require('assert');
-// Passing Test Example
+// SubTestGroup A Example
 describe('TestGroupOne', function() {
   describe('SubTestGroupA', function() {
     it('should return -1 when the value is not present', function(){
@@ -7,11 +7,11 @@ describe('TestGroupOne', function() {
     });
   });
 });
-// Failing Test Example
+// SubTestGroup B Example
 describe('TestGroupOne', function() {
     describe('SubTestGroupB', function() {
       it('should return -1 when the value is not present', function(){
-        assert.equal(0, [81,82].indexOf(4));
+        assert.equal(-1, [81,82].indexOf(4));
       });
     });
   });
@@ -27,7 +27,7 @@ describe('Math', function() {
     // Test Two
     describe('Test Two:', function() {
       it('should pass if  test if (3–4)*8 = -8', function(){
-        assert.equal(-8, (3-4)*8);
+        assert.equal(8, (5 - 1) * 2);
       });
     });
 });
